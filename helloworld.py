@@ -1,3 +1,4 @@
+# Base de datos, los datos
 from flask_restful import Resource
 
 
