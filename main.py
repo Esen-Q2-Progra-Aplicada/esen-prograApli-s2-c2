@@ -6,7 +6,7 @@ from helloworld import HelloWorld
 app = Flask(__name__)
 api = Api(app)  # wrapper
 
-api.add_resource(HelloWorld, "/helloworld/<string:name>")
+api.add_resource(HelloWorld, "/helloworld/<string:name>/<int:age>/<string:salary>")
 
 
 if __name__ == "__main__":
